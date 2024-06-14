@@ -14,7 +14,7 @@
     </navbar>
     <div class="logo">
       <RouterLink to="/">
-        <img src="../src/assets/image/logo.png" alt="">
+        <img src="@/assets/image/logo.png" alt="Logo">
       </RouterLink>
     </div>
     <nav ref="menubar">
@@ -60,6 +60,7 @@
   <footer_page />
 </template>
 <script>
+import logo from '@/assets/image/logo.png';
 import footer_page from './views/footer_page.vue'
 import axios from 'axios';
 import { RouterLink } from 'vue-router';
